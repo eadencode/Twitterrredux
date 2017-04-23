@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 - [x] Profile page - animation to resize avatar and number of tweets to go into nav bar (just like Twitter App).
 - [x] Search by clicking on #hashtags
 - [x] Search View tweets @mentions for any user.
-- [x] WKWebview (mini) in app browser to load media.
+- [x] WKWebview (mini) in app browser to load media (Video , Images and Links).
 - [x] Show location and website of twitter user on profile page. Added ui elements like settings , notification , verified to mimic twitter profile.
 - [x] Login page customization/and showing twitter signup tags.
 - [x] Saving/Serializing tweets in case of 429 errors (to have seamless debug).
@@ -51,7 +51,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/eadencode/Twitterrredux/blob/master/twitterredux.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
