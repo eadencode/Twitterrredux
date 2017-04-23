@@ -442,7 +442,7 @@ extension ProfileViewController:RefreshAndLoadProtocol {
    
 
 
-extension ProfileViewController : RetweetProtocol  {
+extension ProfileViewController : TweetProtocol  {
     func urlTap(url: URL?) {
         //to wk webview
     }

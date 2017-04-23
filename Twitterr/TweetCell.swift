@@ -9,7 +9,7 @@
 import UIKit
 
 
-protocol RetweetProtocol  {
+protocol TweetProtocol  {
     func onReplyOfTweet(tweet:Tweet)
     func performProfileSegue(tweet:Tweet)
     func urlTap(url:URL?)
@@ -35,7 +35,7 @@ class TweetCell: UITableViewCell {
     @IBOutlet weak var retweetButton: UIButton!
     @IBOutlet weak var retweetStack: UIStackView!
     @IBOutlet weak var favStack: UIStackView!
-    var delegate:RetweetProtocol?
+    var delegate:TweetProtocol?
     var fromAction:Bool = false
     var indexRow:Int?
     

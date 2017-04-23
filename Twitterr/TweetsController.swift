@@ -305,7 +305,7 @@ extension TweetsController:RefreshAndLoadProtocol {
 }
 
 
-extension TweetsController : RetweetProtocol , NewTweetProtocol {
+extension TweetsController : TweetProtocol , NewTweetProtocol {
 
     func urlTap(url: URL?) {
         //to wk webview
