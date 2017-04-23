@@ -1,0 +1,6 @@
+framework module Blurry {
+  umbrella header "Blurry-umbrella.h"
+
+  export *
+  module * { export * }
+}

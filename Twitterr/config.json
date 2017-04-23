@@ -1,0 +1,34 @@
+{
+    "twitter" : {
+        "auth" :{
+                "baseurl" : "https://api.twitter.com",
+                "consumerkey": "BmQBNNGFgMmm7QNLLufoS65iG",
+                "consumersecret": "LaAyniGXUMZQZfnQcBm7u3t5gli1d4ahpFuu1H6rBOeKTdhpnp",
+                "baseurl": "https://api.twitter.com",
+                "apponlyurl": "https://api.twitter.com/oauth2/token",
+                "requesttokenurl" : "https://api.twitter.com/oauth/request_token",
+                "authorizeurl" : "https://api.twitter.com/oauth/authorize",
+                "accesstokenurl" : "https://api.twitter.com/oauth/access_token",
+                "accountverifyurl" :"https://api.twitter.com/1.1/account/verify_credentials.json"
+                "tweetsperpage" : 20
+                },
+        "statuses" : {
+            "home" : "https://api.twitter.com/1.1/statuses/home_timeline.json",
+            "retweet" : "https://api.twitter.com/1.1/statuses/retweet/:id.json",
+             "post" : "https://api.twitter.com/1.1/statuses/update.json"
+        },
+        "favorites" : {
+            "create" : "https://api.twitter.com/1.1/favorites/create.json",
+            "list"   : "https://api.twitter.com/1.1/favorites/list.json"
+        },
+        "users" : {
+            
+        }
+        
+    "license" : {
+        "type" : "MIT"
+        "description" : "MIT License 2017"
+    }
+    
+    
+}
