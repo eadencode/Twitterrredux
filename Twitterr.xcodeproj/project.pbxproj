@@ -16,7 +16,6 @@
 		433E469F1EA4060900A5CDB6 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E469E1EA4060900A5CDB6 /* Style.swift */; };
 		4350A9EA1EA99F2C00E556DB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A9E91EA99F2C00E556DB /* ProfileViewController.swift */; };
 		4350A9EC1EA9A3A800E556DB /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A9EB1EA9A3A800E556DB /* ProfileCell.swift */; };
-		4350A9EE1EA9DB5D00E556DB /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4350A9ED1EA9DB5D00E556DB /* TweetCell.xib */; };
 		4350A9F01EAA148000E556DB /* ReusableTweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A9EF1EAA148000E556DB /* ReusableTweetCell.swift */; };
 		4350A9F21EAB0FAE00E556DB /* ProfileMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A9F11EAB0FAE00E556DB /* ProfileMenuCell.swift */; };
 		4350A9F41EAB0FBF00E556DB /* OtherMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A9F31EAB0FBF00E556DB /* OtherMenuCell.swift */; };
@@ -28,6 +27,7 @@
 		4350AA051EAC912D00E556DB /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350AA041EAC912D00E556DB /* UserAccount.swift */; };
 		4350AA071EAD43F500E556DB /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350AA061EAD43F400E556DB /* BrowserViewController.swift */; };
 		4350AA091EAD4F9400E556DB /* twittertagsstart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350AA081EAD4F9400E556DB /* twittertagsstart.png */; };
+		43B85EDD1EAD90E3003721CE /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4350A9ED1EA9DB5D00E556DB /* TweetCell.xib */; };
 		43D24AB31EA1E93700A4BE16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D24AB21EA1E93700A4BE16 /* AppDelegate.swift */; };
 		43D24AB81EA1E93700A4BE16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D24AB61EA1E93700A4BE16 /* Main.storyboard */; };
 		43D24ABA1EA1E93700A4BE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D24AB91EA1E93700A4BE16 /* Assets.xcassets */; };
@@ -438,10 +438,10 @@
 				43D24ABD1EA1E93700A4BE16 /* LaunchScreen.storyboard in Resources */,
 				43D24AF51EA20CFA00A4BE16 /* sign-in-with-twitter.png in Resources */,
 				43D24AED1EA1EFD700A4BE16 /* config.json in Resources */,
-				4350A9EE1EA9DB5D00E556DB /* TweetCell.xib in Resources */,
 				43D24AEF1EA1F12300A4BE16 /* notes.txt in Resources */,
 				43D24ABA1EA1E93700A4BE16 /* Assets.xcassets in Resources */,
 				43D24AB81EA1E93700A4BE16 /* Main.storyboard in Resources */,
+				43B85EDD1EAD90E3003721CE /* TweetCell.xib in Resources */,
 				4350AA091EAD4F9400E556DB /* twittertagsstart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -249,13 +249,18 @@ extension TweetsController : UITableViewDelegate ,UITableViewDataSource {
         tweetsTable.addInfiniteScrollingWithHandler {
             self.infiniteScroll()
         }
+        let nib =  UINib(nibName: "TweetCell", bundle: nil)
+        self.tweetsTable.register(nib, forCellReuseIdentifier: "ReusableTweetCell")
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let  tweetCell = tableView.dequeueReusableCell(withIdentifier: "tweetsCell") as! TweetCell
+        
+        
+        
+        let  tweetCell = tableView.dequeueReusableCell(withIdentifier: "ReusableTweetCell") as! ReusableTweetCell
         let tweet = tweets?[indexPath.row]
         tweetCell.tweet = tweet
-        tweetCell.delegate = self
+//        tweetCell.delegate = self
         return tweetCell
     }
     

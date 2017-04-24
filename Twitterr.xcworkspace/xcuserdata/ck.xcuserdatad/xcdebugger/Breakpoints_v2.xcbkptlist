@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Twitterr/TweetsController.swift"
-            timestampString = "514675036.525263"
+            timestampString = "514691026.585106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
             landmarkName = "urlTap(url:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -41,8 +41,8 @@
                   symbolName = "Twitterr.TwitterApi.removeAccount (userAccount : Twitterr.UserAccount) -&gt; ()"
                   moduleName = "Twitterr"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ck/iOS/Twitterr%202/Twitterr/TwitterApi.swift"
-                  timestampString = "514673212.186606"
+                  urlString = "file:///Users/ck/iOS/withnib/Twitterrredux/Twitterr/TwitterApi.swift"
+                  timestampString = "514691383.136354"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "363"
@@ -56,8 +56,8 @@
                   symbolName = "Twitterr.TwitterApi.(removeAccount (userAccount : Twitterr.UserAccount) -&gt; ()).(closure #1)"
                   moduleName = "Twitterr"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ck/iOS/Twitterr%202/Twitterr/TwitterApi.swift"
-                  timestampString = "514673212.187768"
+                  urlString = "file:///Users/ck/iOS/withnib/Twitterrredux/Twitterr/TwitterApi.swift"
+                  timestampString = "514691383.137727"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "363"
@@ -65,6 +65,38 @@
                   offsetFromSymbolStart = "26">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Twitterr/TweetsController.swift"
+            timestampString = "514691092.508286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "initializeTweetsTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Twitterr/TweetsController.swift"
+            timestampString = "514691093.688945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
