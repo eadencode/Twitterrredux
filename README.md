@@ -31,6 +31,7 @@ The following **optional** features are implemented:
 
 
 The following **additional** features are implemented:
+- [x] Add reveal menu on bar button , in addition to pan.
 - [x] Attributed Text for @mentions  , #hashtags , links. 
 - [x] Profile page - animation to resize avatar and number of tweets to go into nav bar (just like Twitter App).
 - [x] Search by clicking on #hashtags
